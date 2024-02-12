@@ -1,21 +1,30 @@
-:root{
-   -- bage: grey; 
-   --brown: orange;
-   --greendark: white
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@500;700&family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family:  Roboto, sans ;
-    font-weight: 400;
+:root {
+  --beige: #f3eed9;
+  --brown: #824936;
+  --darkgreen: #222c2a;
 }
 
-h1, h2{
-    font fam playfair display , serif
-    font 900
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
-.container{
-    width 80%;
-    max-width: 1128px;
-    margin: 0 auto;
+h1,
+h2 {
+  font-family: "Playfair Display" serif;
+  font-weight: 900;
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
 }
