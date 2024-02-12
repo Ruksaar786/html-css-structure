@@ -28,3 +28,28 @@ h2 {
   max-width: 1128px;
   margin: 0 auto;
 }
+
+header {
+  background-color: var(--beige);
+  padding: 150px 0;
+  text-align: center;
+}
+
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header p {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  margin-bottom: 16px;
+}
+h1 {
+  font-size: 60px;
+  color: var(--brown);
+  text-align: center;
+  line-height: 1.1;
+}
