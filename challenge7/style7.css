@@ -1,0 +1,21 @@
+:root{
+   -- bage: grey; 
+   --brown: orange;
+   --greendark: white
+}
+
+body{
+    font-family:  Roboto, sans ;
+    font-weight: 400;
+}
+
+h1, h2{
+    font fam playfair display , serif
+    font 900
+}
+
+.container{
+    width 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
