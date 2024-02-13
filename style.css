@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
 
 :root {
   --darkblue: #2e323f;
@@ -14,6 +14,12 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+}
+
 .header {
   top: 0;
   left: 0;
@@ -26,15 +32,12 @@
   z-index: 100;
 }
 
-.container {
-  max-width: 1200px;
-}
-
 .logo {
-  font-size: 32px;
+  font-size: 18px;
   color: rgb(255, 253, 253);
   text-decoration: none;
   font-weight: 700;
+  font-family: "Oswald";
 }
 
 .nav__list {
@@ -44,9 +47,82 @@
 }
 .nav a {
   font-size: 18px;
+  font-family: "Oswald";
   color: #fbf5f5;
   font-weight: 500;
   text-decoration: none;
   margin-left: 40px;
   text-transform: uppercase;
+}
+
+.nav__link--button {
+  background-color: var(--beige);
+  color: #000000;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Oswald";
+  font-size: 24px;
+  background-color: var(--beige);
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: var(--darkgrey);
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+  border: 5px solid #e11717;
+}
+
+.hero__text {
+  font-size: 90px;
+  font-family: "Oswald";
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.box1,
+.box2,
+.box3 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-family: "Oswald";
+  font-size: 30px;
+  color: var(--beige);
+  gap: 30%;
+}
+
+.row_text p {
+  font-family: "Monserrat";
+  font-size: 18px;
+  color: #000000;
+}
+
+.section2 {
+  display: flex;
+  gap: 30px;
+  background-color: beige;
 }
